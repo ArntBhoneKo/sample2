@@ -1,0 +1,29 @@
+username - ArntBhoneKo
+email    - arntbhone12345@gmail.com
+password - Abk2002@11#24
+
+cd Path - Go to Directory
+
+Firt Time ( New Repository )
+			git init
+			git add .
+			git config global user.email "useremail"
+			git config global user.name  "username"
+
+			git commit -m "first commit"
+			git remote add origin htpps://github.com/ArntBhoneKo/Sample.git
+			git push -u origin master
+
+(Old Reposity For Existing Project)
+			
+			git add .
+			git commit -m "second commit"
+			git push
+
+(Existing Project To Other Laptop)
+
+			git pull
+
+(Other Person Project To Own Laptop)
+
+			git clone htpps://github.com/ArntBhoneKo/Sample.git
